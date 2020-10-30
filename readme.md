@@ -44,3 +44,9 @@ Implement caching if needed.
 	- Following JS best practices
 	- Hosting to Heroku/AWS
 	- Modular code
+
+
+## Server
+- Install modules: **npm i**
+- Start Server: **npm run dev**
+- Run Test Case: **npm run test**
