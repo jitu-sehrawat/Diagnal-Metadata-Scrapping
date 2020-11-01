@@ -50,3 +50,10 @@ Implement caching if needed.
 - Install modules: **npm i**
 - Start Server: **npm run dev**
 - Run Test Case: **npm run test**
+
+## Endpoint
+`curl --location --request POST 'http://localhost:3000/scrapper/ogp' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "url": "https://diagnal.com/"
+}'`
